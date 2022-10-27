@@ -1,4 +1,4 @@
-# Cats clusterization via hiden representation 
+# Cats clusterization via hidden representation 
 This project is about visualizing image dataset in 3-d and 2-d dimensions using 512-d hidden representation. The dataset contains 1318 .png images of cats representing different breeds and colors. Initial dataset was unlabeled, so we labeled 800 images with 6 classes depending on cats color and breed, then we used 500 images for training the model and 300 for its validation. After that, using ResNet18 with pre initialized wheights, we built classificator to label the rest of the data.
 
 Here you can see the metrics of the classification model:
